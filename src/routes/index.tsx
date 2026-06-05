@@ -8,6 +8,7 @@ import { FlowSection } from "@/components/landing/FlowSection";
 import { Results } from "@/components/landing/Results";
 import { Testimonials } from "@/components/landing/Testimonials";
 import { FAQ } from "@/components/landing/FAQ";
+import { IntegrationsSection } from "@/components/landing/IntegrationsSection";
 import { FinalCTA, Footer } from "@/components/landing/FinalCTA";
 
 export const Route = createFileRoute("/")({
@@ -32,6 +33,7 @@ function Landing() {
         <WhatsAppSection />
         <AISection />
         <FlowSection />
+        <IntegrationsSection />
         <Results />
         <Testimonials />
         <FAQ />

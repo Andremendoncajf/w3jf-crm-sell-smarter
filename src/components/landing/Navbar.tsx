@@ -1,12 +1,13 @@
 import { WHATSAPP_URL } from "@/lib/site-config";
 import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
+import logoImg from "@/assets/logo.png";
 
 export function Navbar() {
   return (
     <header className="fixed top-0 inset-x-0 z-50 backdrop-blur-lg bg-background/60 border-b border-border/60">
       <div className="mx-auto max-w-7xl px-6 h-16 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-2">
-          <div className="h-8 w-8 rounded-lg rotate-45 bg-gradient-to-br from-brand to-brand-deep" />
+          <img src={logoImg} alt="W3JF CRM" className="h-8 w-8 rounded-lg object-cover" />
           <span className="font-display text-lg font-semibold tracking-tight">W3JF <span className="text-brand">CRM</span></span>
         </a>
         <nav className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">
