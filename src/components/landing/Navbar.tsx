@@ -5,7 +5,7 @@ import logoImg from "@/assets/logo.jpg.asset.json";
 export function Navbar() {
   return (
     <header className="fixed top-0 inset-x-0 z-50 backdrop-blur-lg bg-background/60 border-b border-border/60">
-      <div className="mx-auto max-w-7xl h-16 flex items-center justify-between px-[30px]">
+      <div className="mx-auto max-w-7xl h-16 flex items-center justify-between px-[24px]">
         <a href="#top" className="flex items-center gap-2">
           <img src={logoImg.url} alt="W3JF CRM" className="h-8 w-8 rounded-lg object-cover" />
           <span className="font-display text-lg font-semibold tracking-tight">W3JF <span className="text-brand">CRM</span></span>
