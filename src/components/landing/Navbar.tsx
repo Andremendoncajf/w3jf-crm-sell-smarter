@@ -1,4 +1,5 @@
 import { WHATSAPP_URL } from "@/lib/site-config";
+import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 
 export function Navbar() {
   return (
@@ -20,6 +21,7 @@ export function Navbar() {
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium bg-brand text-primary-foreground hover:bg-brand-glow transition btn-glow"
         >
+          <WhatsAppIcon className="h-4 w-4" />
           Demonstração
         </a>
       </div>

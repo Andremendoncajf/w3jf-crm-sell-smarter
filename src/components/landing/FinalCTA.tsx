@@ -1,5 +1,6 @@
-import { ArrowRight, MessageCircle } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { WHATSAPP_URL } from "@/lib/site-config";
+import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 
 export function FinalCTA() {
   return (
@@ -23,7 +24,7 @@ export function FinalCTA() {
             rel="noopener noreferrer"
             className="mt-8 inline-flex items-center gap-2 px-8 py-4 rounded-xl font-semibold bg-brand text-primary-foreground hover:bg-brand-glow transition btn-glow"
           >
-            <MessageCircle className="h-5 w-5" />
+            <WhatsAppIcon className="h-5 w-5" />
             Falar com um Especialista
             <ArrowRight className="h-4 w-4" />
           </a>
