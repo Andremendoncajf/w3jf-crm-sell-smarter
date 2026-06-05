@@ -1,6 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import { WHATSAPP_URL } from "@/lib/site-config";
 import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
+import logoImg from "@/assets/logo.png";
 
 export function FinalCTA() {
   return (

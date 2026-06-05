@@ -33,6 +33,7 @@ function Landing() {
         <WhatsAppSection />
         <AISection />
         <FlowSection />
+        <IntegrationsSection />
         <Results />
         <Testimonials />
         <FAQ />
