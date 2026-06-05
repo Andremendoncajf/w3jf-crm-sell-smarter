@@ -1,7 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import { WHATSAPP_URL } from "@/lib/site-config";
 import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
-import logoImg from "@/assets/logo.png";
+import logoImg from "@/assets/logo.jpg.asset.json";
 
 export function FinalCTA() {
   return (
@@ -40,7 +40,7 @@ export function Footer() {
     <footer className="border-t border-border/60 py-10">
       <div className="mx-auto max-w-7xl px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
         <div className="flex items-center gap-2">
-          <img src={logoImg} alt="W3JF CRM" className="h-7 w-7 rounded-md object-cover" />
+          <img src={logoImg.url} alt="W3JF CRM" className="h-7 w-7 rounded-md object-cover" />
           <span className="font-display font-semibold text-foreground">W3JF CRM</span>
         </div>
         <div>© {new Date().getFullYear()} W3JF — Todos os direitos reservados.</div>
