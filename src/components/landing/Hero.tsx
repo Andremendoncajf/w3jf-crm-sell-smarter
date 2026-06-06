@@ -44,15 +44,6 @@ export function Hero() {
               Solicitar Demonstração
               <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition" />
             </a>
-            <a
-              href={WHATSAPP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl font-semibold border border-border bg-card/60 hover:bg-card hover:border-brand/40 transition"
-            >
-              <WhatsAppIcon className="h-4 w-4 text-brand" />
-              Falar no WhatsApp
-            </a>
           </div>
           <div className="mt-10 flex justify-center gap-8 text-sm text-muted-foreground">
             <div><span className="text-foreground font-semibold text-xl">+5x</span><br/>Velocidade</div>
