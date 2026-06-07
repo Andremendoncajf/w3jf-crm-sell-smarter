@@ -20,7 +20,7 @@ export function WhatsAppSection() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <div className="inline-flex items-center gap-2 text-brand text-sm font-medium mb-3">
+          <div className="inline-flex items-center gap-2 text-accent text-sm font-medium mb-3">
             <MessageCircle className="h-4 w-4" /> WhatsApp Integrado
           </div>
           <h2 className="text-3xl md:text-5xl font-bold">
@@ -33,8 +33,8 @@ export function WhatsAppSection() {
           <ul className="mt-8 grid sm:grid-cols-2 gap-3">
             {benefits.map((b) => (
               <li key={b} className="flex items-start gap-2.5">
-                <span className="mt-0.5 h-5 w-5 shrink-0 rounded-full bg-brand/15 flex items-center justify-center">
-                  <Check className="h-3 w-3 text-brand" />
+                <span className="mt-0.5 h-5 w-5 shrink-0 rounded-full bg-accent/15 flex items-center justify-center">
+                  <Check className="h-3 w-3 text-accent" />
                 </span>
                 <span className="text-sm">{b}</span>
               </li>
@@ -49,15 +49,15 @@ export function WhatsAppSection() {
           transition={{ duration: 0.6 }}
           className="relative"
         >
-          <div className="absolute -inset-8 bg-brand/20 blur-3xl rounded-full" />
+          <div className="absolute -inset-8 bg-accent/20 blur-3xl rounded-full" />
           <div className="relative glass-card rounded-2xl p-6">
             <div className="flex items-center gap-3 pb-4 border-b border-border/60">
               <div className="h-10 w-10 rounded-full bg-gradient-to-br from-brand to-brand-deep flex items-center justify-center font-bold">JS</div>
               <div>
                 <div className="font-medium text-sm">João Silva</div>
-                <div className="text-[10px] text-brand">● online · Lead quente</div>
+                <div className="text-[10px] text-accent">● online · Lead quente</div>
               </div>
-              <div className="ml-auto text-[10px] px-2 py-1 rounded-md bg-brand/15 text-brand">CRM #4821</div>
+              <div className="ml-auto text-[10px] px-2 py-1 rounded-md bg-accent/15 text-accent">CRM #4821</div>
             </div>
             <div className="space-y-3 py-5">
               {[

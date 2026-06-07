@@ -37,7 +37,7 @@
 
 :root {
   --radius: 0.75rem;
-  /* W3JF brand: deep navy + cyan/electric blue */
+  /* W3JF brand: deep navy + cyan / dark purple */
   --background: oklch(0.16 0.04 260);
   --foreground: oklch(0.97 0.01 240);
   --card: oklch(0.21 0.05 262);
@@ -50,7 +50,7 @@
   --secondary-foreground: oklch(0.97 0.01 240);
   --muted: oklch(0.26 0.05 262);
   --muted-foreground: oklch(0.72 0.04 240);
-  --accent: oklch(0.55 0.18 250);
+  --accent: oklch(0.51 0.24 297);           /* medium purple #7B2EDB */
   --accent-foreground: oklch(0.97 0.01 240);
   --destructive: oklch(0.6 0.22 27);
   --destructive-foreground: oklch(0.97 0.01 240);
@@ -58,18 +58,18 @@
   --input: oklch(0.3 0.06 260 / 60%);
   --ring: oklch(0.82 0.14 215);
 
-  --brand: oklch(0.82 0.14 215);          /* cyan W3JF */
-  --brand-glow: oklch(0.88 0.13 200);     /* lighter cyan */
-  --brand-deep: oklch(0.55 0.18 250);     /* electric blue */
+  --brand: oklch(0.82 0.14 215);          /* cyan #33BDD7 */
+  --brand-glow: oklch(0.89 0.10 210);     /* lighter cyan */
+  --brand-deep: oklch(0.36 0.21 283);     /* dark purple #3A0CA3 */
 
   --gradient-hero: radial-gradient(
       1200px 600px at 20% 0%,
-      oklch(0.55 0.18 250 / 0.35),
+      oklch(0.36 0.21 283 / 0.30),        /* purple glow */
       transparent 60%
     ),
     radial-gradient(
       900px 500px at 100% 20%,
-      oklch(0.82 0.14 215 / 0.18),
+      oklch(0.82 0.14 215 / 0.18),        /* cyan glow */
       transparent 70%
     );
   --gradient-brand: linear-gradient(135deg, var(--brand-deep), var(--brand));
@@ -85,7 +85,7 @@
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
     background-image:
-      radial-gradient(800px 400px at 80% -10%, oklch(0.55 0.18 250 / 0.18), transparent 60%),
+      radial-gradient(800px 400px at 80% -10%, oklch(0.36 0.21 283 / 0.15), transparent 60%),
       radial-gradient(600px 300px at -10% 30%, oklch(0.82 0.14 215 / 0.10), transparent 70%);
     background-attachment: fixed;
   }

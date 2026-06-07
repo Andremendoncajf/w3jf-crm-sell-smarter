@@ -14,7 +14,7 @@ export function AISection() {
   return (
     <section id="ia" className="py-24 relative">
       <div className="absolute inset-0 -z-10 opacity-40" style={{
-        background: "radial-gradient(600px 300px at 50% 50%, oklch(0.55 0.18 250 / 0.25), transparent 70%)",
+        background: "radial-gradient(600px 300px at 50% 50%, oklch(0.51 0.24 297 / 0.25), transparent 70%)",
       }} />
       <div className="mx-auto max-w-7xl px-6 grid lg:grid-cols-2 gap-14 items-center">
         <motion.div
@@ -27,7 +27,7 @@ export function AISection() {
           <div className="relative glass-card rounded-2xl p-8">
             <div className="flex items-center justify-around mb-6">
               <div className="text-center">
-                <div className="h-16 w-16 rounded-2xl mx-auto bg-gradient-to-br from-brand to-brand-glow flex items-center justify-center">
+                <div className="h-16 w-16 rounded-2xl mx-auto bg-gradient-to-br from-accent to-brand-glow flex items-center justify-center">
                   <Bot className="h-8 w-8 text-primary-foreground" />
                 </div>
                 <div className="mt-2 text-xs font-medium">IA W3JF</div>
@@ -36,7 +36,7 @@ export function AISection() {
               <motion.div
                 animate={{ opacity: [0.3, 1, 0.3] }}
                 transition={{ duration: 2, repeat: Infinity }}
-                className="flex-1 h-px mx-4 bg-gradient-to-r from-brand to-brand-deep"
+                className="flex-1 h-px mx-4 bg-gradient-to-r from-accent to-brand-deep"
               />
               <div className="text-center">
                 <div className="h-16 w-16 rounded-2xl mx-auto bg-gradient-to-br from-brand-deep to-accent flex items-center justify-center">
@@ -60,7 +60,7 @@ export function AISection() {
                   transition={{ delay: i * 0.2 }}
                   className="flex items-start gap-2 bg-background/50 rounded-lg p-2.5 border border-border/40"
                 >
-                  <span className={`text-[9px] font-bold px-1.5 py-0.5 rounded ${m.color === "brand" ? "bg-brand/20 text-brand" : "bg-accent/30 text-foreground"}`}>{m.tag}</span>
+                  <span className={`text-[9px] font-bold px-1.5 py-0.5 rounded ${m.color === "brand" ? "bg-accent/20 text-accent" : "bg-accent/30 text-foreground"}`}>{m.tag}</span>
                   <span>{m.t}</span>
                 </motion.div>
               ))}
@@ -75,7 +75,7 @@ export function AISection() {
           transition={{ duration: 0.6 }}
           className="order-1 lg:order-2"
         >
-          <div className="inline-flex items-center gap-2 text-brand text-sm font-medium mb-3">
+          <div className="inline-flex items-center gap-2 text-accent text-sm font-medium mb-3">
             <Bot className="h-4 w-4" /> Agente de IA
           </div>
           <h2 className="text-3xl md:text-5xl font-bold">
@@ -88,8 +88,8 @@ export function AISection() {
           <ul className="mt-8 grid sm:grid-cols-2 gap-3">
             {benefits.map((b) => (
               <li key={b} className="flex items-start gap-2.5">
-                <span className="mt-0.5 h-5 w-5 shrink-0 rounded-full bg-brand/15 flex items-center justify-center">
-                  <Check className="h-3 w-3 text-brand" />
+                <span className="mt-0.5 h-5 w-5 shrink-0 rounded-full bg-accent/15 flex items-center justify-center">
+                  <Check className="h-3 w-3 text-accent" />
                 </span>
                 <span className="text-sm">{b}</span>
               </li>

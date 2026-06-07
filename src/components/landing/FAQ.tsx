@@ -33,7 +33,7 @@ export function FAQ() {
     <section id="faq" className="py-24">
       <div className="mx-auto max-w-3xl px-6">
         <div className="text-center mb-12">
-          <div className="text-brand text-sm font-medium mb-3">FAQ</div>
+          <div className="text-accent text-sm font-medium mb-3">FAQ</div>
           <h2 className="text-3xl md:text-5xl font-bold">Perguntas frequentes</h2>
         </div>
         <Accordion type="single" collapsible className="space-y-3">

@@ -29,7 +29,7 @@ export function Results() {
     <section className="py-24 relative">
       <div className="mx-auto max-w-7xl px-6">
         <div className="text-center mb-14">
-          <div className="text-brand text-sm font-medium mb-3">Resultados</div>
+          <div className="text-accent text-sm font-medium mb-3">Resultados</div>
           <h2 className="text-3xl md:text-5xl font-bold">
             Impacto real para o <span className="text-gradient-brand">seu negócio</span>
           </h2>

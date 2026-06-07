@@ -23,7 +23,7 @@ export function IntegrationsSection() {
     <section id="integracoes" className="py-24">
       <div className="mx-auto max-w-7xl px-6">
         <div className="text-center mb-14">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-brand/30 bg-brand/10 text-brand text-xs font-medium mb-4">
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-accent/30 bg-accent/10 text-accent text-xs font-medium mb-4">
             <Plug className="h-3.5 w-3.5" />
             Integrações
           </div>
@@ -45,7 +45,7 @@ export function IntegrationsSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-40px" }}
                 transition={{ duration: 0.35, delay: i * 0.04 }}
-                className="glass-card rounded-xl p-4 flex flex-col items-center justify-center gap-3 hover:border-brand/40 transition group"
+                className="glass-card rounded-xl p-4 flex flex-col items-center justify-center gap-3 hover:border-accent/40 transition group"
               >
                 <Icon size={32} style={{ color: item.color }} />
                 <span className="text-xs font-medium text-muted-foreground group-hover:text-foreground transition text-center">

@@ -19,7 +19,7 @@ export function Features() {
     <section id="beneficios" className="py-24 relative">
       <div className="mx-auto max-w-7xl px-6">
         <div className="max-w-2xl mb-14">
-          <div className="text-brand text-sm font-medium mb-3">Por que W3JF CRM</div>
+          <div className="text-accent text-sm font-medium mb-3">Por que W3JF CRM</div>
           <h2 className="text-3xl md:text-5xl font-bold">
             Tudo que sua operação precisa, em <span className="text-gradient-brand">uma plataforma</span>
           </h2>
@@ -35,7 +35,7 @@ export function Features() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.4, delay: i * 0.05 }}
-              className="group glass-card rounded-xl p-5 hover:border-brand/50 transition"
+              className="group glass-card rounded-xl p-5 hover:border-accent/50 transition"
             >
               <div className="h-10 w-10 rounded-lg bg-gradient-to-br from-brand-deep to-brand flex items-center justify-center mb-4 group-hover:scale-110 transition">
                 <f.icon className="h-5 w-5 text-primary-foreground" />

@@ -15,7 +15,7 @@ export function FlowSection() {
     <section className="py-24">
       <div className="mx-auto max-w-7xl px-6">
         <div className="max-w-2xl mx-auto text-center mb-14">
-          <div className="text-brand text-sm font-medium mb-3">Automação</div>
+          <div className="text-accent text-sm font-medium mb-3">Automação</div>
           <h2 className="text-3xl md:text-5xl font-bold">
             Automação que <span className="text-gradient-brand">vende enquanto você trabalha</span>
           </h2>
@@ -43,7 +43,7 @@ export function FlowSection() {
                   transition={{ delay: i * 0.12 + 0.1 }}
                   className="hidden md:block"
                 >
-                  <ArrowRight className="h-4 w-4 text-brand" />
+                  <ArrowRight className="h-4 w-4 text-accent" />
                 </motion.div>
               )}
             </div>

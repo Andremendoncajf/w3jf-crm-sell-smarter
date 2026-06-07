@@ -1,7 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import { WHATSAPP_URL } from "@/lib/site-config";
 import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
-import logoImg from "@/assets/logo.jpg.asset.json";
 
 export function FinalCTA() {
   return (
@@ -9,7 +8,7 @@ export function FinalCTA() {
       <div className="mx-auto max-w-5xl px-6">
         <div className="relative overflow-hidden rounded-3xl p-10 md:p-16 text-center">
           <div className="absolute inset-0 -z-10" style={{
-            background: "linear-gradient(135deg, oklch(0.55 0.18 250 / 0.35), oklch(0.82 0.14 215 / 0.25))",
+            background: "linear-gradient(135deg, oklch(0.36 0.21 283 / 0.35), oklch(0.82 0.14 215 / 0.25))",
           }} />
           <div className="absolute inset-0 -z-10 glass-card rounded-3xl" />
           <h2 className="text-3xl md:text-5xl font-bold max-w-3xl mx-auto">
@@ -40,8 +39,7 @@ export function Footer() {
     <footer className="border-t border-border/60 py-10">
       <div className="mx-auto max-w-7xl px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
         <div className="flex items-center gap-2">
-          <img src={logoImg.url} alt="W3JF CRM" className="h-7 w-7 rounded-md object-cover" />
-          <span className="font-display font-semibold text-foreground">W3JF CRM</span>
+          <img src="/logo-w3jf.svg" alt="W3JF CRM" className="h-8 w-auto" />
         </div>
         <div>© {new Date().getFullYear()} W3JF — Todos os direitos reservados.</div>
       </div>
