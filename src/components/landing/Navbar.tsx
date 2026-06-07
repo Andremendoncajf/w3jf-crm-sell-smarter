@@ -4,9 +4,9 @@ import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 export function Navbar() {
   return (
     <header className="fixed top-0 inset-x-0 z-50 backdrop-blur-lg bg-background/60 border-b border-border/60">
-      <div className="mx-auto max-w-7xl h-20 flex items-center justify-between px-[24px]">
+      <div className="mx-auto max-w-7xl h-24 flex items-center justify-between px-[24px]">
         <a href="#top" className="flex items-center gap-3">
-          <img src="/logo-w3jf.svg" alt="W3JF CRM" className="h-16 w-auto" />
+          <img src="/logo-w3jf.svg" alt="W3JF CRM" className="h-20 w-auto" />
         </a>
         <nav className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">
           <a href="#beneficios" className="hover:text-foreground transition">Recursos</a>
